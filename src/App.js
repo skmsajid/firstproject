@@ -55,15 +55,15 @@
 // export default App;
 
 //Todo List 
-import Todo from "./Todo.jsx";
-function App(){
-  return(
-    <div>
-      <Todo/>
-    </div>
-  ); 
-}
-export default App;
+// import Todo from "./Todo.jsx";
+// function App(){
+//   return(
+//     <div>
+//       <Todo/>
+//     </div>
+//   ); 
+// }
+// export default App;
 
 //Ludo Board for state and objects
 // import Ludoboard from "./LudoboardUsindObject.jsx";
@@ -186,12 +186,12 @@ export default App;
 // export default App;
 
     // Mini Project called Weather App by search name
-// import WeatherApp from "./miniproject/WeatherApp";
-// function App(){
-//   return(
-//     <div style={{background:"linear-gradient(to top,#ffd952,#bdc4de)",width:"100vw",height:"99vh",marginTop:'-20px',marginBottom:"-50px"}}>
-//     <WeatherApp/>
-//     </div>
-//   );
-// }
-// export default App;
+import WeatherApp from "./miniproject/WeatherApp";
+function App(){
+  return(
+    <div style={{background:"linear-gradient(to top,#ffd952,#bdc4de)",width:"100vw",height:"99vh",marginTop:'-20px',marginBottom:"-50px"}}>
+    <WeatherApp/>
+    </div>
+  );
+}
+export default App;
