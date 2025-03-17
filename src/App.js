@@ -10,17 +10,17 @@
 // );
 // }
 //for Amazon product problem of folder Practice
-import ProductTab from "./Practice/ProductTab";
-function App() {
-  let styles={textAlign:"center"};
-  return( 
-    <div>
-      <h4 style={styles}>BlockBuster Deals I Shop Now!</h4>
-      <ProductTab/>
-    </div>
-); 
-}
-export default App;
+// import ProductTab from "./Practice/ProductTab";
+// function App() {
+//   let styles={textAlign:"center"};
+//   return( 
+//     <div>
+//       <h4 style={styles}>BlockBuster Deals I Shop Now!</h4>
+//       <ProductTab/>
+//     </div>
+// ); 
+// }
+// export default App;
 
 // import { Button } from "@mui/material";
 // import { useState } from "react";
@@ -186,12 +186,12 @@ export default App;
 // export default App;
 
     // Mini Project called Weather App by search name
-// import WeatherApp from "./miniproject/WeatherApp";
-// function App(){
-//   return(
-//     <div style={{background:"linear-gradient(to top,#ffd952,#bdc4de)",width:"100vw",height:"99vh",marginTop:'-20px',marginBottom:"-50px"}}>
-//     <WeatherApp/>
-//     </div>
-//   );
-// }
-// export default App;
+import WeatherApp from "./miniproject/WeatherApp";
+function App(){
+  return(
+    <div style={{background:"linear-gradient(to top,#ffd952,#bdc4de)",width:"100vw",height:"99vh",marginTop:'-20px',marginBottom:"-50px"}}>
+    <WeatherApp/>
+    </div>
+  );
+}
+export default App;
